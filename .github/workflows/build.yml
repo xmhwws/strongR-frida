@@ -91,9 +91,9 @@ jobs:
 
     - name: Setup Android NDK
       id: setup-ndk
-      uses: nttld/setup-ndk@v1.0.3
+      uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: r22
+        ndk-version: r24
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
